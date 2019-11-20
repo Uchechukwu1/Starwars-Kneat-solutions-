@@ -7,5 +7,7 @@ collection of all the star ships and the total amount of stops required to make 
 
 How to use the app
 
-1 type in the distance in mega lights in the input box
+1 type in the distance in mega lights in the input box.
+
+
 2 click the search button

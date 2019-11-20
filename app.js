@@ -24,11 +24,11 @@ function renderShips(torender) {
 
 button.addEventListener("click", () => {
   const input = document.querySelector(".input").value;
+  //conditional statement to know when there is a value in the inputbox
   if (input === "") {
     alert("Please use distance in mega lights (MGLT) in input box");
   } else {
     //Using the  the API Endpoint above to retrieve the data
-
     fetch("https://swapi.co/api/starships/")
       .then(function(response) {
         if (response.status !== 200) {

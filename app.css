@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+
+  width: 80%;
+  margin: 0 auto;
+  height: 300px;
+
+  font-family: "Raleway", sans-serif;
+}
+
+.input {
+  width: 70%;
+  height: 40px;
+}
+
+.button {
+  height: 45px;
+  width: 100px;
+  background-color: rgb(0, 140, 255);
+  border: SOLID 0.4px rgb(3, 17, 29);
+  cursor: pointer;
+  font-weight: bold;
+}
